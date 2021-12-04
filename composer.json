@@ -1,0 +1,22 @@
+{
+    "name": "fuseday/poc3-hello-world",
+    "description": "",
+    "autoload": {
+        "psr-4": {
+            "Fuseday\\Poc3HelloWorld\\": "app/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Fuseday\\Poc3HelloWorld\\Poc3HelloWorldServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": "^8.1"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.23"
+    }
+}
